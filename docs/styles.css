@@ -1,0 +1,10 @@
+/* css styles */
+/*-- scss:rules --*/
+h2 {
+    font-weight: bold;
+}
+
+.quarto-dark h2 {
+    color: #ffc107
+}
+

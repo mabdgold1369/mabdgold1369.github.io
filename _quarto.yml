@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Muhammad Abdurrahman"
+  navbar:
+    background: "#2c3e50"
+    color: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    respect-user-color-scheme: true
+    theme:
+      light: [cosmo, styles.css]
+      dark: [darkly, styles-dark-css]
+    css: styles.css
+    toc: true
+
+
+
