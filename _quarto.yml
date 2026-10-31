@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Muhammad Abdurrahman"
+
   navbar:
     background: "#2c3e50"
     color: "#ffffff"
@@ -11,18 +12,26 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
+      - href: github.qmd
+        text: GitHub
+      - href: github.qmd
     right:
       - icon: github
         href: https://github.com/mabdgold1369
         aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/muhammad-abdurrahman-9925422b1/
+        aria-label: LinkedIn
+      - icon: hugging-face
+        text: ":) Hugging Face"
+        href: https://huggingface.co/mabdgold1369
 
 format:
   html:
     respect-user-color-scheme: true
     theme:
       light: [cosmo, styles.css]
-      dark: [darkly, styles-dark-css]
-    css: styles.css
+      dark: [darkly, styles-dark.css]
     toc: true
 
 
